@@ -7,4 +7,6 @@ const app = express();
 
 
 
-console.log('Hi')
+app.listen(8000, () => {
+    console.log('Listening')
+})
